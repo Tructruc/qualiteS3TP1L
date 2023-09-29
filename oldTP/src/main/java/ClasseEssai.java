@@ -1,4 +1,4 @@
-AJout oldTPpublic class ClasseEssai {
+public class ClasseEssai {
 
 	public static void main(String[] arguments) throws Exception {
 

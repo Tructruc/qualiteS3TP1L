@@ -6,7 +6,10 @@
   <groupId>fr.iutblagnac</groupId>
   <artifactId>tp_qualite</artifactId>
   <version>1.0</version>
-  <packaging>jar</packaging>
+  <packaging>pom</packaging>
+    <modules>
+        <module>oldTP</module>
+    </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
@@ -28,7 +31,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>HelloJava</mainClass>
+              <mainClass>ClasseEssai</mainClass>
             </manifest>
           </archive>
         </configuration>
